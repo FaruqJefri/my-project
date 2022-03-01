@@ -1,0 +1,24 @@
+.mat-elevation-z1 {
+  background: white;
+  border-radius: 25px;
+  }
+
+  h1 {
+    color: darkgray;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+
+  hr {
+    display: block;
+    border-top: 1px solid #f6f6f6;
+    border-radius: 1px;
+    height: 1px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-style: inset;
+    border-width: 0.35px;
+  }
