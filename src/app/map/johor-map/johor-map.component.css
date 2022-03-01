@@ -1,0 +1,28 @@
+mat-grid-list {
+  height: 350px;
+}
+
+mat-grid-tile{
+  height: 350px;
+}
+mat-grid-tile#map {
+  height: 350px;
+}
+
+svg {
+  margin-left: 100px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.hoverable:hover{
+  fill: aqua;
+}
+
+.hoverable:active {
+  fill: blue;
+}
+
+.hoverable{
+  fill: aquamarine;
+}
