@@ -1,0 +1,45 @@
+
+/* (START) TO OVER-RIDE BACKGROUND OF MAT-TABLE TO ENABLE BORDER-RADIUS */
+
+.mat-table
+{
+  background-color:transparent!important;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5em;
+}
+table tr:last-child td /*To remove the last border*/
+{
+  border-bottom:0 solid
+}
+
+/* (END) */
+
+.full-width-table {
+  background: white;
+  border-radius: 25px;
+}
+
+th, td, tr {
+  font-style: normal;
+  color: black;
+}
+
+.icon-display {
+  transform: scale(0.75);
+}
+
+.aligned-with-icon-relative{
+  position: relative;
+  top: -5px;
+  margin-right: 15px; /* optional */
+}
+
+.mat-paginator {
+  background: #f6f6f6;
+  color: black;
+}
+
+
